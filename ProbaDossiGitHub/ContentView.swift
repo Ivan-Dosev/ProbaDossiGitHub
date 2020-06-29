@@ -17,6 +17,10 @@ struct ContentView: View {
                     .padding()
                     .font(.system(size: 30))
                     .background(Color.yellow)
+                Text("Mara")
+                    .padding()
+                    .font(.system(size: 30))
+                    .background(Color.red)
             }
         }.edgesIgnoringSafeArea(.all)
     }
